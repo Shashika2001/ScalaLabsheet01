@@ -2838,3 +2838,44 @@ WARNING: Unmatched cancel notification for request id 518
 2024.07.02 13:40:29 INFO  time: compiled ScalaLabsheet01_5826b65ca0 in 0.36s
 Jul 02, 2024 1:40:31 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+2024.07.02 13:45:20 INFO  Shutting down server
+2024.07.02 13:45:20 INFO  shutting down Metals
+2024.07.02 13:45:20 INFO  Shut down connection with build server.
+2024.07.02 13:45:20 INFO  Exiting server
+2024.07.02 14:10:46 INFO  Started: Metals version 1.3.2 in folders 'F:\Scala-assignment\ScalaLabsheet01' for client Visual Studio Code 1.90.2.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@1375c88f]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@742b957e]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@1375c88f]
+2024.07.02 14:10:47 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.07.02 14:10:48 INFO  no build target found for F:\Scala-assignment\ScalaLabsheet01\lectures\multiplerecursive.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.02 14:10:48 INFO  Attempting to connect to the build server...
+2024.07.02 14:10:48 INFO  Running BSP server List(C:\Users\Asus\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, F:\Scala-assignment\ScalaLabsheet01\.scala-build\ide-options-v2.json, --json-launcher-options, F:\Scala-assignment\ScalaLabsheet01\.scala-build\ide-launcher-options.json, --envs-file, F:\Scala-assignment\ScalaLabsheet01\.scala-build\ide-envs.json, F:\Scala-assignment\ScalaLabsheet01)
+2024.07.02 14:10:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at F:\Scala-assignment\ScalaLabsheet01\.metals\bsp.trace.json or C:\Users\Asus\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.07.02 14:10:51 INFO  no build target found for F:\Scala-assignment\ScalaLabsheet01\lectures\birdsandtree.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.02 14:10:52 WARN  Could not find semantic tokens for: file:///F:/Scala-assignment/ScalaLabsheet01/lectures/birdsandtree.scala
+2024.07.02 14:10:52 INFO  no build target found for F:\Scala-assignment\ScalaLabsheet01\lectures\birdsandtree.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.02 14:10:52 INFO  no build target found for F:\Scala-assignment\ScalaLabsheet01\lectures\birdsandtree.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.02 14:10:52 INFO  no build target found for F:\Scala-assignment\ScalaLabsheet01\lectures\birdsandtree.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.02 14:10:52 INFO  no build target found for F:\Scala-assignment\ScalaLabsheet01\lectures\birdsandtree.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.02 14:10:53 INFO  time: Connected to build server in 4.72s
+2024.07.02 14:10:53 INFO  Connected to Build server: scala-cli v1.3.2
+2024.07.02 14:10:54 INFO  compiling scalalabsheet01_5826b65ca0 (1 scala source)
+2024.07.02 14:10:54 INFO  time: compiled ScalaLabsheet01_5826b65ca0 in 0.65s
+Jul 02, 2024 2:10:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 43
+2024.07.02 14:10:57 INFO  time: indexed workspace in 3.82s
+Jul 02, 2024 2:10:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 51
+Jul 02, 2024 2:11:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 310
+Jul 02, 2024 2:13:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 644
+Jul 02, 2024 2:13:10 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report F:\Scala-assignment\ScalaLabsheet01\.metals\.reports\metals-full\2024-07-02\r_compiler-error_(ScalaLabsheet01_5826b65ca0)_14-13-10-595.md
+2024.07.02 14:14:28 INFO  Shutting down server
+2024.07.02 14:14:28 INFO  shutting down Metals
+2024.07.02 14:14:28 INFO  Shut down connection with build server.
+2024.07.02 14:14:28 INFO  Cancelling compilation on scala-cli server
+2024.07.02 14:14:28 INFO  Exiting server
