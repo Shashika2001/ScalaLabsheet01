@@ -65,10 +65,10 @@ def main(args: Array[String]): Unit = {
       104 -> ("ProductD", 15, 25.0)
     )
 
-    //println(getAllProductNames(inventory1)) 
-    // println(calculateTotalValue(inventory1)) 
-    // println(isInventoryEmpty(inventory1)) 
-    // println(mergeInventories(inventory1,inventory2)) 
-    println(checkProductExistence(inventory1,102)) 
+    println(getAllProductNames(inventory1)) 
+     println(calculateTotalValue(inventory1)) 
+    //println(isInventoryEmpty(inventory1)) 
+     //println(mergeInventories(inventory1,inventory2)) 
+    //println(checkProductExistence(inventory1,102)) 
     
 }

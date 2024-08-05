@@ -16,17 +16,21 @@ def getStudentInfo: (String, Int, Int, Double, Char) = {
       isValid = validation._1
       if (!isValid) println(s"Error: ${validation._2}")
     
-    
+  
     val percentage = (marks.toDouble / totalMarks) * 100
+ 
     val grade = percentage match {
       case p if p >= 90 => 'A'
       case p if p >= 75 => 'B'
       case p if p >= 50 => 'C'
+    
       case _ => 'D'
     }
     
     (name, marks, totalMarks, percentage, grade)
+  
   }
+
 
   def printStudentRecord(record: (String, Int, Int, Double, Char)): Unit = {
     val (name, marks, totalMarks, percentage, grade) = record
@@ -40,8 +44,8 @@ def getStudentInfo: (String, Int, Int, Double, Char) = {
   def validateInput(name: String, marks: Int, totalMarks: Int): (Boolean, Option[String]) = {
     if (name.isEmpty) {
       (false, Some("Name cannot be empty"))
-    } else if (marks < 0 || totalMarks < 0) {
-      (false, Some("Marks and total possible marks must be positive"))
+    } else if (marks < -10 || totalMarks < 0) {
+      (false, Some("Marks and total possible marks must be higher than -10"))
     } else if (marks > totalMarks) {
       (false, Some("Marks cannot exceed total possible marks"))
     } else {
@@ -68,5 +72,10 @@ def getStudentInfo: (String, Int, Int, Double, Char) = {
 def main(args: Array[String]): Unit = {
   val studentRecord = getStudentInfoWithRetry
   printStudentRecord(studentRecord)
+
+  if (marks<0){
+    val percentage=0
+    println
+  }
 
 }
