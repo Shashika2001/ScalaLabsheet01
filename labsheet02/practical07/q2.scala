@@ -1,13 +1,14 @@
-def calculateSquare(nums: List[Int]): List[Int] = {
-  nums.map(num => num * num)
+def squareNumbers(numbers : List[Int]) : List[Int] = {
+    numbers.map(x => x*x)
 }
 
-// Example usage
+object square extends App()
+{
+    val numbers = List(1,2,3,4,5)
 
-   val input = List(1, 2, 3, 4, 5)
-val output = calculateSquare(input)
-println(output) // Output: List(1, 4, 9, 16, 25)
- 
+    println(s"Original List : ${numbers}")
 
+    println(s"List containing square of original list elements : ${squareNumbers(numbers)}")
     
-
+   
+}

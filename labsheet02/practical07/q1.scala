@@ -9,3 +9,4 @@ def main(args: Array[String]): Unit = {
     println{output} // Output: List(2, 4, 6, 8, 10)
 }
 
+ 
