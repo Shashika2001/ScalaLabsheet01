@@ -5867,3 +5867,227 @@ INFO: Unsupported notification method: $/setTrace
 2024.08.05 23:09:17 INFO  shutting down Metals
 2024.08.05 23:09:18 INFO  Shut down connection with build server.
 2024.08.05 23:09:17 INFO  Exiting server
+2024.08.13 00:56:25 INFO  Started: Metals version 1.3.5 in folders 'F:\Scala-assignment\ScalaLabsheet01' for client Visual Studio Code 1.92.0.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@3822b8b3]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@1989d3ff]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@3822b8b3]
+2024.08.13 00:56:26 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.13 00:56:27 INFO  no build target found for F:\Scala-assignment\ScalaLabsheet01\labsheet02\practical07\q3.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.13 00:56:27 INFO  Attempting to connect to the build server...
+2024.08.13 00:56:27 INFO  Running BSP server List(C:\Users\Asus\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, F:\Scala-assignment\ScalaLabsheet01\.scala-build\ide-options-v2.json, --json-launcher-options, F:\Scala-assignment\ScalaLabsheet01\.scala-build\ide-launcher-options.json, --envs-file, F:\Scala-assignment\ScalaLabsheet01\.scala-build\ide-envs.json, F:\Scala-assignment\ScalaLabsheet01)
+2024.08.13 00:56:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at F:\Scala-assignment\ScalaLabsheet01\.metals\bsp.trace.json or C:\Users\Asus\AppData\Local\scalameta\metals\cache\bsp.trace.json
+Aug 13, 2024 12:56:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+Aug 13, 2024 12:56:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10
+2024.08.13 00:56:35 INFO  time: Connected to build server in 7.04s
+2024.08.13 00:56:35 INFO  Connected to Build server: scala-cli v1.3.2
+2024.08.13 00:56:35 INFO  running doctor check
+2024.08.13 00:56:35 INFO  java targets: ScalaLabsheet01_5826b65ca0-test, ScalaLabsheet01_5826b65ca0
+2024.08.13 00:56:35 INFO  compiling scalalabsheet01_5826b65ca0 (10 scala sources)
+2024.08.13 00:56:37 INFO  time: compiled ScalaLabsheet01_5826b65ca0 in 2.06s
+2024.08.13 00:56:37 INFO  compiling scalalabsheet01_5826b65ca0 (10 scala sources)
+2024.08.13 00:56:38 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.13 00:56:38 INFO  time: compiled ScalaLabsheet01_5826b65ca0 in 1.16s
+2024.08.13 00:56:38 INFO  time: indexed workspace in 4.38s
+2024.08.13 00:56:39 INFO  compiling scalalabsheet01_5826b65ca0 (10 scala sources)
+2024.08.13 00:56:39 INFO  time: compiled ScalaLabsheet01_5826b65ca0 in 0.75s
+2024.08.13 00:56:40 INFO  compiling scalalabsheet01_5826b65ca0 (10 scala sources)
+2024.08.13 00:56:40 INFO  time: compiled ScalaLabsheet01_5826b65ca0 in 0.99s
+2024.08.13 00:56:50 INFO  no build target found for F:\Scala-assignment\ScalaLabsheet01\practical8\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.13 00:56:50 INFO  no build target found for F:\Scala-assignment\ScalaLabsheet01\practical8\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.13 00:56:50 WARN  Could not find semantic tokens for: file:///F:/Scala-assignment/ScalaLabsheet01/practical8/Q1.scala
+2024.08.13 00:56:50 INFO  running doctor check
+2024.08.13 00:56:50 INFO  java targets: ScalaLabsheet01_5826b65ca0-test, ScalaLabsheet01_5826b65ca0
+2024.08.13 00:56:50 INFO  compiling scalalabsheet01_5826b65ca0 (11 scala sources)
+2024.08.13 00:56:50 INFO  time: compiled ScalaLabsheet01_5826b65ca0 in 0.62s
+2024.08.13 00:56:50 INFO  compiling scalalabsheet01_5826b65ca0 (11 scala sources)
+2024.08.13 00:56:52 INFO  time: compiled ScalaLabsheet01_5826b65ca0 in 0.6s
+2024.08.13 00:56:53 INFO  time: indexed workspace in 2.51s
+2024.08.13 00:56:53 INFO  compiling scalalabsheet01_5826b65ca0 (11 scala sources)
+2024.08.13 00:56:53 INFO  time: compiled ScalaLabsheet01_5826b65ca0 in 0.5s
+2024.08.13 00:56:53 WARN  Could not find semantic tokens for: file:///F:/Scala-assignment/ScalaLabsheet01/practical8/Q1.scala
+2024.08.13 00:57:03 INFO  compiling scalalabsheet01_5826b65ca0 (11 scala sources)
+2024.08.13 00:57:03 INFO  time: compiled ScalaLabsheet01_5826b65ca0 in 0.32s
+2024.08.13 00:57:38 INFO  no build target found for F:\Scala-assignment\ScalaLabsheet01\practical8\Q2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.13 00:57:38 INFO  no build target found for F:\Scala-assignment\ScalaLabsheet01\practical8\Q2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.13 00:57:38 WARN  Could not find semantic tokens for: file:///F:/Scala-assignment/ScalaLabsheet01/practical8/Q2.scala
+2024.08.13 00:57:39 INFO  running doctor check
+2024.08.13 00:57:39 INFO  java targets: ScalaLabsheet01_5826b65ca0-test, ScalaLabsheet01_5826b65ca0
+2024.08.13 00:57:39 INFO  compiling scalalabsheet01_5826b65ca0 (12 scala sources)
+2024.08.13 00:57:39 INFO  time: compiled ScalaLabsheet01_5826b65ca0 in 0.65s
+2024.08.13 00:57:39 INFO  compiling scalalabsheet01_5826b65ca0 (12 scala sources)
+2024.08.13 00:57:40 INFO  time: compiled ScalaLabsheet01_5826b65ca0 in 0.48s
+2024.08.13 00:57:41 INFO  time: indexed workspace in 2.32s
+2024.08.13 00:57:41 INFO  compiling scalalabsheet01_5826b65ca0 (12 scala sources)
+2024.08.13 00:57:41 INFO  time: compiled ScalaLabsheet01_5826b65ca0 in 0.32s
+2024.08.13 00:57:42 WARN  Could not find semantic tokens for: file:///F:/Scala-assignment/ScalaLabsheet01/practical8/Q2.scala
+2024.08.13 00:57:45 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.13 00:57:45 INFO  no build target found for C:\Users\Asus\AppData\Local\Microsoft\Windows\INetCache\IE\3PS8H7W4\q2[1].scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.13 00:57:47 INFO  time: code lens generation in 1.56s
+2024.08.13 00:57:48 INFO  Running List(C:\Users\Asus\AppData\Local\Coursier\data\bin\scala-cli.BAT, bsp, --workspace, C:\Users\Asus\AppData\Local\Temp\metals-scala-cli17085219123736322483, --semantic-db-source-root, C:\Users\Asus\AppData\Local\Microsoft\Windows\INetCache\IE\3PS8H7W4, C:\Users\Asus\AppData\Local\Microsoft\Windows\INetCache\IE\3PS8H7W4\q2[1].scala)
+2024.08.13 00:57:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Asus\AppData\Local\Microsoft\Windows\INetCache\IE\3PS8H7W4\.metals\bsp.trace.json or C:\Users\Asus\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.08.13 00:57:50 INFO  Connected to Scala CLI server v1.3.2
+2024.08.13 00:57:50 INFO  compiling metals-scala-cli17085219123736322483_2635394016-65bd38d8b0 (1 scala source)
+2024.08.13 00:57:50 INFO  time: compiled metals-scala-cli17085219123736322483_2635394016-65bd38d8b0 in 0.5s
+2024.08.13 00:57:51 WARN  Could not find semantic tokens for: file:///F:/Scala-assignment/ScalaLabsheet01/practical8/Q2.scala
+2024.08.13 00:57:51 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.13 00:57:52 INFO  time: indexed workspace in 2.5s
+2024.08.13 00:57:52 INFO  Scala CLI started for C:\Users\Asus\AppData\Local\Microsoft\Windows\INetCache\IE\3PS8H7W4\q2[1].scala
+2024.08.13 00:57:52 WARN  Could not find semantic tokens for: file:///F:/Scala-assignment/ScalaLabsheet01/practical8/Q2.scala
+2024.08.13 00:57:53 WARN  Could not find semantic tokens for: file:///F:/Scala-assignment/ScalaLabsheet01/practical8/Q2.scala
+2024.08.13 00:57:55 INFO  Shut down connection with build server.
+2024.08.13 00:57:55 INFO  Scala CLI: Aug 13, 2024 12:57:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+2024.08.13 00:57:58 INFO  compiling scalalabsheet01_5826b65ca0 (12 scala sources)
+2024.08.13 00:57:58 INFO  time: compiled ScalaLabsheet01_5826b65ca0 in 0.6s
+Aug 13, 2024 12:59:30 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.08.13 01:56:56 INFO  compiling scalalabsheet01_5826b65ca0 (12 scala sources)
+2024.08.13 01:56:56 INFO  time: compiled ScalaLabsheet01_5826b65ca0 in 0.6s
+2024.08.13 01:57:08 INFO  compiling scalalabsheet01_5826b65ca0 (12 scala sources)
+2024.08.13 01:57:08 INFO  time: compiled ScalaLabsheet01_5826b65ca0 in 0.29s
+Aug 13, 2024 1:57:35 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Aug 13, 2024 1:57:50 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.util.NoSuchElementException: token 203 out of 203
+java.util.concurrent.CompletionException: java.util.NoSuchElementException: token 203 out of 203
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2194)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+Caused by: java.util.NoSuchElementException: token 203 out of 203
+	at scala.meta.tokens.Tokens.apply(Tokens.scala:37)
+	at scala.meta.internal.parsers.ScannerTokens.nextToken(ScannerTokens.scala:312)
+	at scala.meta.internal.parsers.ScannerTokens.nextToken(ScannerTokens.scala:298)
+	at scala.meta.internal.parsers.LazyTokenIterator.getNextTokenRef(LazyTokenIterator.scala:25)
+	at scala.meta.internal.parsers.LazyTokenIterator.peekToken(LazyTokenIterator.scala:59)
+	at scala.meta.internal.parsers.ScalametaParser.peekToken(ScalametaParser.scala:162)
+	at scala.meta.internal.parsers.ScalametaParser.otherMods$1(ScalametaParser.scala:3035)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$termParam$1(ScalametaParser.scala:3046)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:325)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:369)
+	at scala.meta.internal.parsers.ScalametaParser.termParam(ScalametaParser.scala:3023)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$termParamClausesOnParen$4(ScalametaParser.scala:2981)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$termParamClausesOnParen$4$adapted(ScalametaParser.scala:2981)
+	at scala.meta.internal.parsers.ScalametaParser.iter$1(ScalametaParser.scala:629)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$tokenSeparated$1(ScalametaParser.scala:634)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$tokenSeparated$1$adapted(ScalametaParser.scala:622)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$listBy(ScalametaParser.scala:562)
+	at scala.meta.internal.parsers.ScalametaParser.tokenSeparated(ScalametaParser.scala:622)
+	at scala.meta.internal.parsers.ScalametaParser.commaSeparatedWithIndex(ScalametaParser.scala:643)
+	at scala.meta.internal.parsers.ScalametaParser.parseParams$1(ScalametaParser.scala:2981)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$termParamClausesOnParen$2(ScalametaParser.scala:2991)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$inParensAfterOpenOr(ScalametaParser.scala:253)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$inParensOnOpenOr(ScalametaParser.scala:244)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$termParamClausesOnParen$1(ScalametaParser.scala:2993)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:325)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:369)
+	at scala.meta.internal.parsers.ScalametaParser.paramClause$1(ScalametaParser.scala:2993)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$termParamClausesOnParen$8(ScalametaParser.scala:2997)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$termParamClausesOnParen$8$adapted(ScalametaParser.scala:2996)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$listBy(ScalametaParser.scala:562)
+	at scala.meta.internal.parsers.ScalametaParser.termParamClausesOnParen(ScalametaParser.scala:2996)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$memberParamClauseGroups$3(ScalametaParser.scala:2939)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:325)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:369)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$memberParamClauseGroups$2(ScalametaParser.scala:2939)
+	at scala.meta.internal.parsers.ScalametaParser.getAfterOptNewLine(ScalametaParser.scala:1355)
+	at scala.meta.internal.parsers.ScalametaParser.iter$6(ScalametaParser.scala:2935)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$memberParamClauseGroups$1(ScalametaParser.scala:2961)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$memberParamClauseGroups$1$adapted(ScalametaParser.scala:2933)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$listBy(ScalametaParser.scala:562)
+	at scala.meta.internal.parsers.ScalametaParser.memberParamClauseGroups(ScalametaParser.scala:2933)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$funDefRest$1(ScalametaParser.scala:3531)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:372)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:377)
+	at scala.meta.internal.parsers.ScalametaParser.funDefRest(ScalametaParser.scala:3511)
+	at scala.meta.internal.parsers.ScalametaParser.funDefOrDclOrExtensionOrSecondaryCtor(ScalametaParser.scala:3460)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3320)
+	at scala.meta.internal.parsers.ScalametaParser.nonLocalDefOrDcl(ScalametaParser.scala:3299)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$2.applyOrElse(ScalametaParser.scala:4123)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$2.applyOrElse(ScalametaParser.scala:4115)
+	at scala.PartialFunction.$anonfun$runWith$1(PartialFunction.scala:231)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4107)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$statSeq$1(ScalametaParser.scala:4096)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$statSeq$1$adapted(ScalametaParser.scala:4096)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$listBy(ScalametaParser.scala:562)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:4096)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4285)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4288)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:325)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:369)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4264)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4291)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:119)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:116)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:58)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:116)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:30)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:37)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionInputOffset.safeParse(ScalametaCommonEnrichments.scala:565)
+	at scala.meta.internal.parsing.Trees.$anonfun$parse$2(Trees.scala:150)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsing.Trees.parse(Trees.scala:141)
+	at scala.meta.internal.parsing.Trees.didChange(Trees.scala:101)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$parseTreesAndPublishDiags$2(MetalsLspService.scala:631)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2024.08.13 01:58:05 INFO  compiling scalalabsheet01_5826b65ca0 (12 scala sources)
+2024.08.13 01:58:05 INFO  time: compiled ScalaLabsheet01_5826b65ca0 in 0.32s
+2024.08.13 01:58:25 INFO  compiling scalalabsheet01_5826b65ca0 (12 scala sources)
+2024.08.13 01:58:25 INFO  time: compiled ScalaLabsheet01_5826b65ca0 in 0.3s
+Aug 13, 2024 1:58:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 384
+2024.08.13 01:58:40 ERROR F:\Scala-assignment\ScalaLabsheet01\practical8\Q1.scala
+scala.meta.internal.tokenizers.package$UnexpectedInputEndException
+	at scala.meta.internal.tokenizers.LegacyScanner.$anonfun$nextToken$1(LegacyScanner.scala:172)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at scala.meta.internal.tokenizers.LegacyScanner.scala$meta$internal$tokenizers$LegacyScanner$$nextToken(LegacyScanner.scala:178)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags$XtensionScanner.mtagsNextToken(ScalaToplevelMtags.scala:72)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:437)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:84)
+	at scala.meta.internal.metals.SemanticdbDefinition$.foreachWithReturnMtags(SemanticdbDefinition.scala:81)
+	at scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:595)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3(Indexer.scala:693)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3$adapted(Indexer.scala:690)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1303)
+	at scala.meta.internal.metals.Indexer.reindexWorkspaceSources(Indexer.scala:690)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$2(MetalsLspService.scala:952)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1570)
+
+2024.08.13 01:58:40 INFO  compiling scalalabsheet01_5826b65ca0 (12 scala sources)
+2024.08.13 01:58:40 INFO  time: compiled ScalaLabsheet01_5826b65ca0 in 0.28s
+2024.08.13 01:58:51 INFO  compiling scalalabsheet01_5826b65ca0 (12 scala sources)
+2024.08.13 01:58:51 INFO  time: compiled ScalaLabsheet01_5826b65ca0 in 0.28s
+Aug 13, 2024 1:59:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 499
+2024.08.13 01:59:29 INFO  compiling scalalabsheet01_5826b65ca0 (12 scala sources)
+2024.08.13 01:59:29 INFO  time: compiled ScalaLabsheet01_5826b65ca0 in 0.35s
+2024.08.13 01:59:47 INFO  compiling scalalabsheet01_5826b65ca0 (12 scala sources)
+2024.08.13 01:59:47 INFO  time: compiled ScalaLabsheet01_5826b65ca0 in 0.27s
+2024.08.13 01:59:57 INFO  Shutting down server
+2024.08.13 01:59:57 INFO  shutting down Metals
+2024.08.13 01:59:57 INFO  Shut down connection with build server.
+2024.08.13 01:59:57 INFO  Exiting server
